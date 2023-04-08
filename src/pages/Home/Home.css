@@ -1,0 +1,23 @@
+.home{
+    color:white;
+    font-family: sans-serif;
+}
+.trending{
+    position: relative;
+    margin-bottom: 40px;
+}
+.centerer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.trending__title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 40px;
+}

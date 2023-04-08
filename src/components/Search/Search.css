@@ -1,0 +1,28 @@
+.navBar__searchContainer{
+    display: flex;
+    align-items: center;
+    width:40%;
+    border: 1px solid rgb(59, 58, 58);
+    border-radius: 50px ;
+    margin: auto;
+   
+   
+    
+}
+.navBar__searchContainer>input{
+    flex:1;
+    border: none;
+    outline: none;
+    background-color: black;
+    height:40px;
+    color:gray;
+    padding-left:10px;
+    border-radius: 30px;
+    
+}
+.navBar__inputButton{
+    width: 50px !important;
+    color: red;
+    cursor: pointer;
+}
+

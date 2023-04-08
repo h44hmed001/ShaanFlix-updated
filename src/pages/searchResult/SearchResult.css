@@ -1,0 +1,47 @@
+.searchResult {
+  min-height: 700px;
+  padding-top: 100px;
+  font-family: sans-serif;
+}
+.resultNotFound {
+  font-size: 24px;
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pageTitle {
+  font-size: 24px;
+  line-height: 34px;
+  color: white;
+  margin-bottom: 25px;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 45px;
+  margin-bottom: 50px;
+}
+.posterBlock {
+  margin-bottom: 20px;
+}
+.loader {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inTheMid {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.triangle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
