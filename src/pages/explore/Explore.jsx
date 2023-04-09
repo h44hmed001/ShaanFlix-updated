@@ -8,7 +8,7 @@ import "./Explore.scss";
 import useFetch from "../../hooks/useFetch";
 import { fetchDataFromApi } from "../../utils/api";
 
-import MovieCard from "../../components/movieCard/MovieCard";
+import MovieCard from "../../components/MovieCard/MovieCard";
 import { Triangle } from "react-loader-spinner";
 
 let filters = {};

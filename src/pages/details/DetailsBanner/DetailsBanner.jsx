@@ -5,7 +5,7 @@ import dayjs from "dayjs";
 import "./DetailsBanner.scss";
 import useFetch from "../../../hooks/useFetch";
 
-import CircleRating from "../../../components/circleRating/CircleRating";
+import CircleRating from "../../../components/CircleRating/CircleRating";
 import LazyLoad from "../../../components/LazyLoad/LazyLoad";
 import PosterFallback from "../../../assets/no-poster.png";
 import { fetchDataFromApi } from "../../../utils/api";
